@@ -1,0 +1,381 @@
+body{
+    font-family: "Montserrat",sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 7px;
+}
+.logoTitle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.025em;
+    color: #E12200;
+    text-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.4);
+    display: block;
+    text-decoration: none;
+}
+.nav-a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.mobileDiv{
+    width: 207px;
+    height: 38px;
+    border: 1px solid #FFC821;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobileText{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E12200;
+    text-decoration: none;
+}
+/* WRAPPER */
+
+.wrapper{
+    position: relative;
+}
+
+.cover{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.66);
+    width: 100%;
+    height: 100%;
+}
+.wraperText{
+    position: absolute;
+    top: 10%;
+    text-align: center;
+}
+.wrapereH1{
+    font-weight: bold;
+    line-height: 73px;
+    font-size: 60px;
+    color: #fff;
+}
+.wraperButton{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    margin-top: 50px;
+}
+.wraperBtn{
+    width: 335px;
+    height: 51.34px;
+    background: #FFCB2E;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.wraperP{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+}
+.wraperIconMainDiv{
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    display: flex;
+    margin-top: 55px;
+}
+.Icon{
+    display: flex;
+    align-items: center;
+}
+.iconH2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+/* ONLINE CALCULATOR */
+.onlineCalculator{
+    margin-top: 100px;
+}
+.onlineCalculatorTitle{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+.onlineCalculatorBox{
+    margin-top: 100px;
+    width: 100%;
+    background-color: rgba(215, 215, 211, 0.15);
+    padding: 50px;
+    border: 2px solid #E12200;
+}
+.boxTitle{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.calculatorTitles{
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.inputTitles{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0;
+    margin-left: 3px;
+}
+.inputMainDiv{
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 20px;
+}
+.mainBox{
+    display: flex;
+    margin-top: 50px;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+}
+.secondBox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 335px;
+    height: 51.34px;
+    background: #FFCB2E;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+}
+/* CARS SECTIOn */
+.cars{
+    margin-top: 100px;
+    background: rgba(20, 24, 11, 0.08);
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.carsH2{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+.bg1{
+    position: absolute;
+    bottom:  0%;
+    right:  -10%;
+    overflow: hidden;
+}
+.bg2{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.MaincCars{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.carsName{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.arrow{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.arrowleft{
+    cursor: pointer;
+}
+.arrowright{
+    cursor: pointer;
+    z-index: 100;
+}
+.car1{
+    transition: 500ms all linear;
+}
+.car2{
+    transition: 500ms all linear;
+}
+.car3{
+    transition: 500ms all linear;
+}
+/* OPERATOR */
+.operatorH1{
+    display: flex;
+    justify-content: start;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+.operatorInput{
+    display: inline-block;
+}
+.operatorDiv{
+    position: relative;
+}
+.input{
+    width: 330px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #949393;
+    border-radius: 5px;
+}
+.maintext{
+    margin-left: 50px;
+}
+.maintext p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.operatorImg{
+    position: absolute;
+    right: 0%;
+    bottom: -15%;
+}
+/* FOOTER */
+.footer{
+    background-color: #646464;
+    padding: 50px;
+}
+.footerLogo{
+    text-align: center;
+}
+.logoText{
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.footerDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.footerMobileP{
+    display: flex;
+    justify-content: end;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.social{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.year{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.socialIcon{
+    margin-left: 35px;
+}
+/* RESPONSIVE */
+
+@media (max-width:1024px){
+    .wraperImg{
+        height: 500px;
+    }
+    .wraperButton{
+        margin-top: 70px;
+    }
+    .input{
+        width: 200px;
+    }
+    .button{
+        width: 200px;
+    }
+    .operatorImg{
+        display: none;
+    }
+}
+@media (max-width: 500px){
+    .wrapereH1{
+        font-size: 40px;
+    }
+    .wrapericon{
+        width: 30px;
+    }
+    .iconH2{
+        font-size: 11px;
+    }
+    .mainBox{
+        flex-wrap: wrap;
+    }
+    .secondBox{
+        flex-wrap: wrap;
+    }
+    .lastCalculator{
+        flex-wrap: wrap;
+    }
+    .input{
+        width: 161px;
+    }
+    .button{
+        width: 161px;
+    }
+    .mobileDiv{
+        width: 145px
+    }
+    .mobileText{
+        font-size: 13px ;
+    }
+}
